@@ -1,17 +1,9 @@
-# Reservation Management Application
+# Fibonacci Clock Application
 
 ## Overview
 
-A comprehensive reservation management application built with React, TypeScript, and Tailwind CSS. The app provides features to filter, sort, and search reservations, making it easy for users to manage and view their bookings.
+This Proportional Fibonacci Clock is a unique digital clock application that represents time using the Fibonacci sequence. The UI consists of five squares, each sized based on Fibonacci numbers. Each square changes color dynamically to represent hours, minutes, or both: red for hours, green for minutes, and blue when both overlap. The app offers buttons to increment or decrement time in 5-minute intervals, allowing users to visually explore how time is displayed using Fibonacci decomposition. Built with React and Tailwind CSS, the clock combines mathematical concepts with an interactive visual experience.
 
-## Features
-
-- **Filter Reservations:** Filter by status, date range, shift, area, and search by customer name.
-- **Sort Reservations:** Sort by guest number or customer name in ascending or descending order.
-- **Search Functionality:** Search for reservations by customer first and last names.
-- **Date Range Filtering:** Filter reservations by start and end dates.
-- **Caching**: Caches filtered and sorted results for faster access.
-- **Responsive Design**: Optimized for various screen sizes.
 
 ## Technologies Used
 
@@ -24,18 +16,18 @@ A comprehensive reservation management application built with React, TypeScript,
 
 ## Getting Started
 
-To get started with the Reservation Management app, follow these steps:
+To get started with the Fibonacci Clock app, follow these steps:
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone <https://github.com/sohaibproject/restaurant_reservation.git>
+   git clone <https://github.com/sohaibproject/fibonacci-clock.git>
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd restaurant_reservation
+   cd fibonacci-clock
 
    ```
 
