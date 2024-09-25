@@ -1,0 +1,29 @@
+@import '../../../style/variable.scss';
+
+.not-found {
+  .link {
+    text-decoration: none;
+  }
+  .message {
+    font-family: $Poppins-M;
+  }
+  .btn-home {
+    font-family: $Poppins-M;
+
+    background-color: $info;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 15px;
+  }
+  .icon-animation {
+    animation: left 1s infinite;
+  }
+  @keyframes left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-10px);
+    }
+  }
+}

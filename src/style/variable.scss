@@ -1,0 +1,97 @@
+:root {
+  --gv-primary: #fb7901;
+  --gv-danger: #f1416c;
+  --gv-info: #009ef7;
+  --gv-success: #24db73;
+}
+
+$primary: #2193b0;
+$secondary: #364ba4;
+
+$blue: #009ef7;
+/*$secondary: #a1a5b7;*/
+$success: #24db73;
+$success2: #1aae6f;
+$danger: #f1416c;
+$info: #009ef7;
+$muted: #7e8299;
+$warning: #ffc107;
+$dark: #1e1e1e;
+
+$primary-light: #fff4eb;
+$primary-light2: #ffe6dc;
+$primary-light3: #f7a150;
+$info-light: rgba(114, 57, 234, 0.47);
+$warning-light: #fff8dd;
+$danger-light: #fff5f8;
+$danger-light2: #f5e0e8;
+$danger-light3: #fc7597;
+$dark-light: #f4f4f4;
+
+$gray-100: #f9f9f9;
+$gray-200: #f4f4f4;
+$gray-300: #e1e3ea;
+$gray-400: #b5b5c3;
+$gray-500: #a1a5b7;
+$gray-600: #7e8299;
+$gray-700: #5e6278;
+$gray-800: #3f4254;
+$gray-900: #181c32;
+
+$Poppins-B: 'Poppins-Bold', sans-serif;
+$Poppins-R: 'Poppins-Regular', sans-serif;
+$Poppins-Ex: 'Poppins-ExtraBold', sans-serif;
+$Poppins-L: 'Poppins-Light', sans-serif;
+$Poppins-M: 'Poppins-Medium', sans-serif;
+// Start styling
+$border_radius_20: 20px;
+$border_radius_10: 20px;
+@mixin caption {
+  font-size: 12px;
+  font-family: $Poppins-L;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+@mixin btn {
+  padding: 5px 15px;
+  // padding: auto;
+  outline: 0;
+  border: none;
+  border-radius: $border_radius_10;
+  text-align: center;
+  color: white;
+  font-family: $Poppins-R;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  // box-sizing: border-box;
+  &:active {
+    transform: scale(0.8);
+  }
+}
+// End styling
+
+$orange: #fa8072;
+$orange-inverse: rgba(250, 128, 114, 0.3);
+
+$danger2: #f61200;
+$danger2-inverse: #fcd3d0;
+
+$blue: #1a5cff;
+$blue-inverse: #d8f1fc;
+
+$brown: brown;
+$brown-inverse: #fff5f8;
+
+$hot-pink: #d31a98;
+$pale-blue: #eaecfb;
+
+$info-inverse: #e1f0ff;
+$info-inverse2: #d8f1fc;
+
+$primary-inverse: #f4f4f4;
+$primary-inverse2: #cfe1ee;
+
+$success-light: #e8fff3ff;
+$success-light2: #d3f1e1;
+
+$purple-inverse: #f8f5ff;
